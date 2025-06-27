@@ -1,5 +1,5 @@
 // utils/request.js
-const BASE_URL = 'https://erp.ciosz.com'; // 替换为你的 Odoo 地址
+const BASE_URL = 'https://erp.xx.com'; // 替换为你的 Odoo 地址
 
 export function post(url, data) {
     return new Promise((resolve, reject) => {
