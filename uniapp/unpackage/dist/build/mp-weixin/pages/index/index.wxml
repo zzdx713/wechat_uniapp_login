@@ -1,0 +1,1 @@
+<view class="index-container data-v-c259aa1c"><user-card vue-id="8dd740cc-1" user="{{user}}" class="data-v-c259aa1c" bind:__l="__l"></user-card><button data-event-opts="{{[['tap',[['logout',['$event']]]]]}}" bindtap="__e" class="data-v-c259aa1c">退出登录</button></view>

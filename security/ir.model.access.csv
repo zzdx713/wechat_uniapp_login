@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_wechat_config_settings,Access WeChat Config Settings,wechat_uniapp_login.model_wechat_config_settings,base.group_system,1,1,1,1
+access_res_partner_wechat,Access Res Partner WeChat,base.model_res_partner,base.group_public,1,0,0,0

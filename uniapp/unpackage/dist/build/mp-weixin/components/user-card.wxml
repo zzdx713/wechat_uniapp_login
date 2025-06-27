@@ -1,0 +1,1 @@
+<view class="user-card data-v-ae980712"><image class="avatar data-v-ae980712" src="{{user.avatarUrl}}" mode="aspectFill"></image><text class="username data-v-ae980712">{{user.name}}</text><text class="mobile data-v-ae980712">{{user.mobile}}</text></view>

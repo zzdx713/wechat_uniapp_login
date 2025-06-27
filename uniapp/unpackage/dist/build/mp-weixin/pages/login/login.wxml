@@ -1,0 +1,1 @@
+<view class="login-container data-v-91f7d82a"><image class="logo data-v-91f7d82a" src="/static/logo.png" mode="aspectFit"></image><button type="primary" open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['onLogin',['$event']]]]]}}" bindgetuserinfo="__e" class="data-v-91f7d82a">微信登录</button></view>

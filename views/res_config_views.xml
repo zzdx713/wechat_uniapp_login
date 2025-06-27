@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- 表单视图 -->
+    <record id="view_wechat_config_settings_form" model="ir.ui.view">
+        <field name="name">wechat.config.settings.form</field>
+        <field name="model">wechat.config.settings</field>
+        <field name="arch" type="xml">
+            <form string="微信小程序配置">
+                <group>
+                    <field name="wechat_appid"/>
+                    <field name="wechat_secret"/>
+                    <field name="jwt_secret"/>
+                </group>
+                <footer>
+                    <button string="保存" type="object" name="execute" class="btn-primary"/>
+                    <button string="取消" type="object" name="cancel" class="btn-default"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- 配置动作 -->
+    <record id="action_wechat_config_settings" model="ir.actions.act_window">
+        <field name="name">微信小程序设置</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">wechat.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <!-- 菜单项 -->
+    <menuitem id="menu_wechat_config_settings"
+              name="微信小程序设置"
+              parent="base.menu_config"
+              action="action_wechat_config_settings"
+              sequence="99"/>
+
+</odoo>

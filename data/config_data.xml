@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record id="wechat_appid" model="ir.config_parameter">
+            <field name="key">wechat.appid</field>
+            <field name="value">your_appid_here</field>
+        </record>
+        <record id="wechat_secret" model="ir.config_parameter">
+            <field name="key">wechat.secret</field>
+            <field name="value">your_secret_here</field>
+        </record>
+        <record id="wechat_jwt_secret" model="ir.config_parameter">
+            <field name="key">wechat.jwt_secret</field>
+            <field name="value">your_jwt_secret_here</field>
+        </record>
+    </data>
+</odoo>
