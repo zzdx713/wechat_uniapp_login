@@ -13,11 +13,19 @@ wechat_uniapp_login/
     └── model_data.xml (可选)
 ├── README.md
 微信小程序
-├── pages.json
-├── main.js
+wechat_uniapp_login/
+├── pages/
+│   └── login/
+│       ├── login.vue
+│       └── login.js
+├── pages/index/index.vue
+├── components/
+│   └── user-card.vue
+├── utils/
+│   └── request.js
+├── store/
+│   └── index.js
 ├── App.vue
-└── pages
-    └── login
-        ├── login.vue
-    └── home
-        ├── home.vue
+├── main.js
+└── manifest.json
+└── pages.json
